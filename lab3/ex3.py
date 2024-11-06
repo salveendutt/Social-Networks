@@ -17,11 +17,10 @@ def energy(positions, G):
     spring_energy = 0.0
     
     # Calculate electrostatic energy
-    for i in range(num_vertices):
-        for j in range(i + 1, num_vertices):
-            r_ij = np.linalg.norm(positions[i] - positions[j])
-            if r_ij > 0:
-                electrostatic_energy += k_e / r_ij
+    for (i, j) in G.edges():
+        r_ij = np.linalg.norm(positions[i] - positions[j])
+        if r_ij > 0:
+            electrostatic_energy += k_e / r_ij
 
     # Calculate spring potential energy
     for (i, j) in G.edges():
@@ -37,7 +36,6 @@ def simulated_annealing(positions, G, initial_temp=1.0, final_temp=0.01, alpha=0
 
     # Store the positions over time for animation
     positions_history = [best_positions.copy()]
-    # With help of chatGPT
     for _ in range(max_iter):
         new_positions = best_positions + (np.random.rand(num_vertices, 2) - 0.5) * 0.1
         new_energy = energy(new_positions, G)
