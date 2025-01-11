@@ -1,0 +1,63 @@
+
+Twitter Network Analysis Report
+=============================
+
+Network Statistics:
+-----------------
+• Total Users in Network: 14,273
+• Total Interactions: 33,689
+• Network Density: 0.0002
+• Average Interactions per User: 4.72
+
+Top Influential Users (by Total Interactions):
+------------------------------------------
+• ameliebaldwin: 0.2793
+• hyddrox: 0.1411
+• kateritterrrr: 0.0764
+• finley1589: 0.0740
+• rh0lbr00k: 0.0730
+• patriotblake: 0.0666
+• wadeharriot: 0.0509
+• cassishere: 0.0509
+• paolakinck: 0.0506
+• hollydler: 0.0496
+
+Most Mentioned Users:
+• realdonaldtrump: 0.0160
+• hillaryclinton: 0.0138
+• potus: 0.0086
+• wikileaks: 0.0063
+• thehill: 0.0060
+• cnn: 0.0057
+• blicqer: 0.0049
+• joyannreid: 0.0043
+• drjillstein: 0.0041
+• jamilsmith: 0.0036
+
+Most Active Users:
+• ameliebaldwin: 0.2793
+• hyddrox: 0.1410
+• kateritterrrr: 0.0764
+• finley1589: 0.0740
+• rh0lbr00k: 0.0729
+• patriotblake: 0.0657
+• wadeharriot: 0.0508
+• cassishere: 0.0507
+• paolakinck: 0.0504
+• hollydler: 0.0493
+
+Hashtag Analysis:
+• Total Hashtags Used: 121,138
+• Unique Hashtags: 12,935
+
+Top Hashtags:
+• #Politics: 3,606 uses
+• #maga: 3,079 uses
+• #Trump: 2,425 uses
+• #tcot: 2,366 uses
+• #news: 1,973 uses
+• #NeverHillary: 1,375 uses
+• #pjnet: 1,276 uses
+• #TrumpPence16: 980 uses
+• #Trump2016: 947 uses
+• #MerkelMussBleiben: 796 uses
