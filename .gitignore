@@ -1,7 +1,7 @@
 *.csv
 *.png 
 *.txt 
-
+*.edges
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
